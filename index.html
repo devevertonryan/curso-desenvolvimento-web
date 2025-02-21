@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Desenvolvimento Web</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="main-header">
+        <nav class="navigation">
+            <div class="nav-logo">
+                <a href="#">
+                    <img src="./src/logo.png" alt="Logo Desenvolvimento Web">
+                </a>
+            </div>
+
+            <ul class="nav-menu-desktop">
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li>
+                    <a href="#sobre">sobre</a>
+                </li>
+                <li>
+                    <a href="#conteudo">conteúdo</a>
+                </li>
+                <li>
+                    <a href="#instrutores">instrutores</a>
+                </li>
+                <li>
+                    <a href="#depoimentos">Depoimentos</a>
+                </li>
+            </ul>
+
+            <div class="menu">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+        </nav>
+
+        <ul class="nav-menu-mobile">
+            <li>
+                <a href="#">home</a>
+            </li>
+            <li>
+                <a href="#sobre">sobre</a>
+            </li>
+            <li>
+                <a href="#conteudo">conteúdo</a>
+            </li>
+            <li>
+                <a href="#instrutores">instrutores</a>
+            </li>
+            <li>
+                <a href="#depoimentos">Depoimentos</a>
+            </li>
+        </ul>
+    </header>
+
+    <!-- ARROW -->
+    <div class="arrow">
+        <i class="fas fa-arrow-right arrow-animated"></i>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-txt">
+                <h1>domine o desenvolvimento web</h1>
+                <p>Aprenda com os melhores e domine as tecnologias mais usadas no mercado</p>
+                <a href="#cta">Inscreva-se agora</a>
+            </div>
+
+            <figure class="hero-img">
+                <img src="./src/image-home.png" alt="Imagem da Home">
+            </figure>
+        </section>
+
+        <!-- SOBRE -->
+        <section class="about" id="sobre">
+            <h2>O que você vai aprender</h2>
+
+            <div class="about-cards">
+                <div class="about-card about-card1">
+                    <header class="icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>html & css</h4>
+                    </header>
+
+                    <div class="about-card-txt">
+                        <p><span class="purple">Aprenda as principais linguagens</span> para construir sites na web e se destacar no mercado de tecnologia</p>
+                    </div>
+                </div>
+
+                <div class="about-card about-card2">
+                    <header class="icons">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript do básico ao avançado</h4>
+                    </header>
+
+                    <div class="about-card-txt">
+                        <p>Dê vida aos seus sites com a <span class="purple">principal linguagem de programação frontend</span></p>
+                    </div>
+                </div>
+
+                <div class="about-card about-card3">
+                    <header class="icons">
+                        <i class="fab fa-react"></i>
+                        <h4>frameworks modernos</h4>
+                    </header>
+
+                    <div class="about-card-txt">
+                        <p>Aprenda <span class="purple">React, Next, Vue e muito mais</span> com os melhores profissionais do  mercado</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTEÚDO -->
+        <section class="content" id="conteudo">
+            <h2>Conteúdos do curso</h2>
+
+            <div class="accordion-list">
+                <div class="accordion">
+                    <header class="accordion-header">
+                        <h3>Módulo 1: Introdução ao HTML e CSS</h3>
+                        <i class="fas fa-chevron-down acc-arrow"></i>
+                    </header>
+
+                    <div class="accordion-response">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum, odio laborum rem ab soluta nostrum distinctio ad ipsum provident, similique mollitia perferendis itaque ipsam expedita quasi reiciendis nobis porro repellendus. Perferendis eligendi expedita facilis sit in eum, accusamus quaerat, corrupti numquam debitis nostrum? Earum ea voluptate at aliquam officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ducimus omnis non pariatur quod enim magnam veritatis corrupti et voluptatum, commodi itaque molestias cumque consequuntur, hic fugit rem. Quia, doloremque?</p>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <header class="accordion-header">
+                        <h3>Módulo 2: JavaScript Essencial</h3>
+                        <i class="fas fa-chevron-down acc-arrow"></i>
+                    </header>
+
+                    <div class="accordion-response">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum, odio laborum rem ab soluta nostrum distinctio ad ipsum provident, similique mollitia perferendis itaque ipsam expedita quasi reiciendis nobis porro repellendus. Perferendis eligendi expedita facilis sit in eum, accusamus quaerat, corrupti numquam debitis nostrum? Earum ea voluptate at aliquam officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolores, eum ad officiis fugiat rem vel alias ex, ab assumenda incidunt. Incidunt dolore nisi nulla voluptatibus enim soluta facilis minus?</p>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <header class="accordion-header">
+                        <h3>Módulo 3: Ferramentas de Desenvolvimento</h3>
+                        <i class="fas fa-chevron-down acc-arrow"></i>
+                    </header>
+
+                    <div class="accordion-response">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum, odio laborum rem ab soluta nostrum distinctio ad ipsum provident, similique mollitia perferendis itaque ipsam expedita quasi reiciendis nobis porro repellendus. Perferendis eligendi expedita facilis sit in eum, accusamus quaerat, corrupti numquam debitis nostrum? Earum ea voluptate at aliquam officiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ipsam, quasi porro maiores nihil labore beatae ullam fuga aspernatur! Consequuntur fuga quis nisi nulla quibusdam. Molestiae, harum. Maiores, mollitia ut!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INSTRUTORES -->
+        <section class="instructors" id="instrutores">
+            <h2>Conheça seus instrutores</h2>
+
+            <div class="instructors-cards">
+                <div class="instructors-card instructors-card1">
+                    <header class="instructors-card-header">
+                        <img src="./src/instrutor-1.jpg" alt="Instrutor 1">
+                        <h4>Fulano</h4>
+                    </header>
+
+                    <div class="instructors-card-txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vero deleniti sit iste ipsam reiciendis, dolore quod rem eligendi odit.</p>
+                    </div>
+                </div>
+
+                <div class="instructors-card instructors-card2">
+                    <header class="instructors-card-header">
+                        <img src="./src/instrutor-2.jpg" alt="Instrutor 2" width="150px" height="150px">
+                        <h4>Ciclano</h4>
+                    </header>
+
+                    <div class="instructors-card-txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vero deleniti sit iste ipsam reiciendis, dolore quod rem eligendi odit.</p>
+                    </div>
+                </div>
+
+                <div class="instructors-card instructors-card3">
+                    <header class="instructors-card-header">
+                        <img src="./src/instrutor-3.jpg" alt="Instrutor 3" width="150px" height="150px">
+                        <h4>Beltrano</h4>
+                    </header>
+
+                    <div class="instructors-card-txt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum vero deleniti sit iste ipsam reiciendis, dolore quod rem eligendi odit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTOS -->
+        <section class="testimonials" id="depoimentos">
+            <h2>Depoimentos de Alunos</h2>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonials-card-txt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi voluptas odit ad ducimus nihil.</p>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                        <div class="testimonials-card-student">
+                            <figure class="testimonials-card-student-img">
+                                <img src="./src/aluno.jpg" alt="Aluno">
+                            </figure>
+
+                            <div class="testimonials-card-student-info">
+                                <h5>Aluno Tal</h5>
+                                <p>25 Abril 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-card-txt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi voluptas odit ad ducimus nihil.</p>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                        <div class="testimonials-card-student">
+                            <figure class="testimonials-card-student-img">
+                                <img src="./src/aluno.jpg" alt="Aluno">
+                            </figure>
+
+                            <div class="testimonials-card-student-info">
+                                <h5>Aluno Tal</h5>
+                                <p>25 Abril 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-card-txt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi voluptas odit ad ducimus nihil.</p>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                        <div class="testimonials-card-student">
+                            <figure class="testimonials-card-student-img">
+                                <img src="./src/aluno.jpg" alt="Aluno">
+                            </figure>
+
+                            <div class="testimonials-card-student-info">
+                                <h5>Aluno Tal</h5>
+                                <p>25 Abril 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-card-txt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi voluptas odit ad ducimus nihil.</p>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                        <div class="testimonials-card-student">
+                            <figure class="testimonials-card-student-img">
+                                <img src="./src/aluno.jpg" alt="Aluno">
+                            </figure>
+
+                            <div class="testimonials-card-student-info">
+                                <h5>Aluno Tal</h5>
+                                <p>25 Abril 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-card-txt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi voluptas odit ad ducimus nihil.</p>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                        <div class="testimonials-card-student">
+                            <figure class="testimonials-card-student-img">
+                                <img src="./src/aluno.jpg" alt="Aluno">
+                            </figure>
+
+                            <div class="testimonials-card-student-info">
+                                <h5>Aluno Tal</h5>
+                                <p>25 Abril 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonials-card-txt">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eligendi voluptas odit ad ducimus nihil.</p>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+
+                        <div class="testimonials-card-student">
+                            <figure class="testimonials-card-student-img">
+                                <img src="./src/aluno.jpg" alt="Aluno">
+                            </figure>
+
+                            <div class="testimonials-card-student-info">
+                                <h5>Aluno Tal</h5>
+                                <p>25 Abril 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta" id="cta">
+            <h2 class="cta-title">Pronto para transformar sua carreira?</h2>
+
+            <div class="cta-card">
+                <header class="header-cta-card">
+                    <img src="./src/logo.png" alt="Logo Desenvolvimento Web">
+                </header>
+
+                <div class="price-cta-card">
+                    <p>R$ 337</p>
+                    <p>ou 12x R$29</p>
+                </div>
+
+                <div class="cta-btn-card">
+                    <a href="#">Quero fazer parte</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul class="social-media">
+            <li class="social-item">
+                <a href="#"><i class="fab fa-square-facebook"></i></a>
+            </li>
+            <li class="social-item">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="social-item">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+        </ul>
+
+        <ul class="footer-links">
+            <li class="footer-item">
+                <a href="#">Política de Privacidade</a>
+            </li>
+            <li class="footer-item">
+                <a href="#">Termos de Uso</a>
+            </li>
+            <li class="footer-item">
+                <a href="#">Suporte</a>
+            </li>
+        </ul>
+
+        <div class="footer-copyright">
+            <p>&copy; 2024 Curso de Desenvolvimento Web.
+                Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <!-- SWIPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/scrollreveal.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+</body>
+</html>
